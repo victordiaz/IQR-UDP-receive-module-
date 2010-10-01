@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE System PUBLIC "-//INI/iqr421" "iqrSystem.dtd">
+<System author="biquillo" cylesPerSecond="25" date="Mon Mar 15 23:08:44 2010&#xA;" id="L-4718-1268690924-1152239947" name="new system" port="54923" syncPlots="false">
+
+  <Note></Note>
+
+  <Process color="#FFFFFF" enableModule="true" hostname="" id="L-4718-1268690931-1709421084" name="New Process 1" path="" port="54923">
+    <Module name="UDPreceive">
+      <Parameter name="Port" value="8002"/>
+      <XRefHolder name="InputFromGroup"/>
+      <XRefHolder name="OutputToGroup">
+        <XRef name="Val1" target="L-4718-1268690939-979349712"/>
+        <XRef name="Val2" target="L-4718-1268690942-946096303"/>
+        <XRef name="Val3" target="L-4718-1268690942-946096303"/>
+        <XRef name="Val4" target="L-4718-1268690942-946096303"/>
+        <XRef name="Val5" target="L-4718-1268690942-946096303"/>
+      </XRefHolder>
+    </Module>
+    <Note></Note>
+    <DiagramIcon height="50" width="50" x="85" y="80"/>
+    <Group color="#FFFFFF" id="L-4718-1268690939-979349712" name="New Group 1">
+      <Topology>
+        <TopologyRect cylinderHor="false" cylinderVert="false" hcount="1" vcount="1"/>
+      </Topology>
+      <Neuron name="neuronLinearThreshold">
+        <Parameter name="excGain" value="1"/>
+        <Parameter name="inhGain" value="1"/>
+        <Parameter name="vmPrs" value="0"/>
+        <Parameter name="clipVm" value="false"/>
+        <Parameter name="vmMin" value="0"/>
+        <Parameter name="vmMax" value="1"/>
+        <Parameter name="probability" value="1"/>
+        <Parameter name="threshold" value="0"/>
+      </Neuron>
+      <Note></Note>
+      <DiagramIcon height="50" width="50" x="92" y="80"/>
+    </Group>
+    <Group color="#FFFFFF" id="L-4718-1268690942-946096303" name="New Group 2">
+      <Topology>
+        <TopologyRect cylinderHor="false" cylinderVert="false" hcount="1" vcount="1"/>
+      </Topology>
+      <Neuron name="neuronLinearThreshold">
+        <Parameter name="excGain" value="1"/>
+        <Parameter name="inhGain" value="1"/>
+        <Parameter name="vmPrs" value="0"/>
+        <Parameter name="clipVm" value="false"/>
+        <Parameter name="vmMin" value="0"/>
+        <Parameter name="vmMax" value="1"/>
+        <Parameter name="probability" value="1"/>
+        <Parameter name="threshold" value="0"/>
+      </Neuron>
+      <Note></Note>
+      <DiagramIcon height="50" width="50" x="199" y="111"/>
+    </Group>
+  </Process>
+
+</System>
+
